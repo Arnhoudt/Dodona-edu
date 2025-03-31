@@ -57,7 +57,7 @@ gem 'rouge', '4.2.0'
 gem 'builder', '~>3.2.4'
 
 # generate diffs
-gem 'diff-lcs', '~>1.5'
+gem 'diff-lcs', '~>1.6'
 
 # auto css prefixer
 gem 'autoprefixer-rails', '~>10.4.15'
