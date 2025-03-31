@@ -74,8 +74,8 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
-    addressable (2.8.5)
-      public_suffix (>= 2.0.2, < 6.0)
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
     aes_key_wrap (1.1.0)
     after_commit_everywhere (1.3.1)
       activerecord (>= 4.2)
@@ -133,7 +133,8 @@ GEM
     counter_culture (3.5.0)
       activerecord (>= 4.2)
       activesupport (>= 4.2)
-    crack (0.4.5)
+    crack (1.0.0)
+      bigdecimal
       rexml
     crass (1.0.6)
     css_parser (1.12.0)
@@ -204,7 +205,7 @@ GEM
     has_scope (0.8.2)
       actionpack (>= 5.2)
       activesupport (>= 5.2)
-    hashdiff (1.0.1)
+    hashdiff (1.1.2)
     hashie (5.0.0)
     hcaptcha (7.1.0)
       json
@@ -359,7 +360,7 @@ GEM
       actionpack (>= 6.1)
     psych (5.1.1.1)
       stringio
-    public_suffix (5.0.3)
+    public_suffix (6.0.1)
     puma (6.4.0)
       nio4r (~> 2.0)
     pundit (2.3.1)
@@ -434,7 +435,7 @@ GEM
     responders (3.1.1)
       actionpack (>= 5.2)
       railties (>= 5.2)
-    rexml (3.2.6)
+    rexml (3.4.1)
     rouge (4.2.0)
     rubocop (1.57.2)
       json (~> 2.3)
@@ -538,7 +539,7 @@ GEM
       activesupport
       faraday (~> 2.0)
       faraday-follow_redirects
-    webmock (3.19.1)
+    webmock (3.25.1)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
