@@ -170,8 +170,8 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.5.0)
     docile (1.4.0)
-    docker-api (2.2.0)
-      excon (>= 0.47.0)
+    docker-api (2.4.0)
+      excon (>= 0.64.0)
       multi_json
     drb (2.1.1)
       ruby2_keywords
@@ -180,7 +180,8 @@ GEM
     exception_notification (4.5.0)
       actionmailer (>= 5.2, < 8)
       activesupport (>= 5.2, < 8)
-    excon (0.100.0)
+    excon (1.2.5)
+      logger
     execjs (2.9.1)
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
@@ -259,6 +260,7 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     loofah (2.21.4)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -577,7 +579,7 @@ DEPENDENCIES
   delayed_job_web (~> 1.4.4)
   devise (~> 4.9.3)
   diff-lcs (~> 1.5)
-  docker-api (~> 2.2.0)
+  docker-api (~> 2.4.0)
   ed25519
   exception_notification (~> 4.5.0)
   factory_bot_rails (~> 6.2.0)
