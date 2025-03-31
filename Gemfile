@@ -130,7 +130,7 @@ gem 'faker', '~> 3.2.1'
 gem 'flamegraph', '~> 0.9.5'
 gem 'memory_profiler', '~> 1.0.1'
 gem 'rack-mini-profiler', '~> 3.1.1'
-gem 'stackprof', '~> 0.2.25'
+gem 'stackprof', '~> 0.2.27'
 
 gem 'ddtrace', '~> 1.15.0'
 
